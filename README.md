@@ -1,6 +1,8 @@
 コマンドプロンプトをグリッドに配置します。  
 ただの Electron + React の練習です。
 
+![キャプチャー](https://rawgit.com/luncheon/GridPrompt/master/capture.png)
+
 最近コマンドプロンプトを複数立ち上げる機会が多かったので  
 グリッド配置できたら便利かと思って作ったのですが  
 なかなかコマンドプロンプトと同じようには動作せず  
