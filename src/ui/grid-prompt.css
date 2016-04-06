@@ -1,0 +1,53 @@
+.grid-prompt {
+  background-color: rgb(64, 64, 64);
+  min-height: 100%;
+  min-width: 100%;
+  overflow: auto;
+}
+.prompt {
+  width: 100%;
+  height: 100%;
+  table-layout: fixed;
+  padding: 1px;
+  background-color: rgb(224, 224, 224);
+}
+.prompt td {
+  overflow: hidden;
+}
+.prompt-header {
+  font-size: 13px;
+  font-family: 游ゴシック, 'Meiryo UI', sans-serif;
+  cursor: move;
+}
+.prompt-body {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  white-space: pre;
+  padding: 2px;
+  font-size: 16px;
+  font-family: 'ＭＳ ゴシック', monospace;
+  overflow: auto;
+  background-color: rgb(16, 16, 16);
+  color: rgb(224, 224, 224);
+}
+button.prompt-close {
+  float: right;
+  border: 0 none transparent;
+  transition-property: color, background-color;
+  transition-duration: .1s;
+  transition-timing-function: linear;
+  transition-delay: 0;
+}
+button.prompt-close:hover {
+  color: white;
+  background-color: red;
+}
+.prompt-input {
+  min-width: 2px;
+}
+.react-grid-item > .react-resizable-handle {
+  width: 10px;
+  height: 10px;
+  padding: 0 1px 1px 0;
+}

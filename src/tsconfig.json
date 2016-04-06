@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "jsx": "react",
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "noLib": false,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noResolve": true
+  },
+  "exclude": [
+    "typings/main.d.ts",
+    "typings/main"
+  ]
+}
